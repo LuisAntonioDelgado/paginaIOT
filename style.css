@@ -1,0 +1,293 @@
+html{
+    scroll-behavior: smooth;
+}
+.custom-navbar{
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+}
+
+.navbar{
+    box-shadow: 2px 2px 5px #000;
+    opacity: .9;
+}
+.navbar .nav-item .nav-link{
+    color: #fff;
+}
+
+
+.main-header{
+    margin: 0;
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+}
+
+.custom-titulo{
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+:root{
+    --primary-gradient:linear-gradient(to bottom,#ffffff,#adadaa);
+    --label-gradient:linear-gradient(to bottom, #536452 0%, #57dd52 40%, #95e669 100%);
+     
+}
+
+.background-overlay{
+    background-color: #282c34;
+    background: url('./Imagenes/Night_3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 92vw;
+    height: 89vh;
+    font-size: calc(10px+2vmin);
+    color: #fff;
+    margin: auto;
+    /* margin-top: 4rem; */
+    text-align: center;
+}
+
+/* styling checkbox */
+
+.lightswitch{
+    border: 1px solid white;
+    width: 40px;
+    height: 7px;
+    background: rgb(192, 188, 188);
+    margin: 20px auto;
+    border-radius: 100px;
+    position: relative;
+}
+.lightswitch label{
+    display: block;
+    width: 19px;
+    height: 19px;
+    background: #0f0c29;
+    background:var(--label-gradient);
+    border-radius: 50px;
+    position: absolute;
+    top: -6px;
+    left: -1px;
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,alpha);
+    transition: all .5s ease;
+}
+
+.lightswitch input[type="checkbox"]{
+    position: absolute;
+    left: -8px;
+    top: -6px;
+    width: 50px;
+    opacity:0;
+
+}
+
+.lightswitch input[type="checkbox"]:checked + label{
+    left: 25px;
+    background: tomato;
+}
+
+
+
+/* Aqui empieza el title  */
+.custom-title{
+    width: 100%;
+}
+/* .custom-text{
+    margin-top: 140px;
+} */
+ .custom-heigth{
+    /* height: ; */
+    width: 200px;
+    /* border: 1px solid red; */
+} 
+
+.custom_mCard{
+    height: 400px;
+}
+.custom-imgH{
+    height: 150px;
+    width: 250px;
+}
+
+.custom-design{
+    border-radius: 0;
+
+}
+.custom-cardT{
+    /* width: 200px; */
+    height: 250px;
+
+}
+
+.custom-link-pos{
+    /* border: 1px solid blue; */
+    height: 180px;
+}
+
+.team,footer{
+    background-color: #30336b;
+}
+/* .custom-size{
+    /* height: 100px; 
+} */
+
+/* style de pricing_table */
+
+.body-pricing{
+    background: #eee;
+    font-family:'poppins';
+}
+
+.wrapper{
+    width: 900px;
+    margin: 5% auto;
+}
+
+.single-price{
+    /* color: #fff; */
+    width: 33%;
+    background: #262626;
+    float: left;
+    margin-top: 2%;
+    box-shadow: 1px 1px 20px rgba(0,0,0,0.5);
+    text-align: center;
+    transition: 0.9s;
+}
+.price{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 2px solid #da4357;
+    margin: 5% auto 0 auto;
+    text-align: center;
+}
+.deals{
+    margin-top: 10%;
+}
+.single-price h1{
+    font-size: 18px;
+    color: #fff;
+    line-height: 3;
+    text-transform: uppercase;
+}
+.price h2{
+    font-size: 38px;
+    color: #fff;
+}
+.deals h4{
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+    color: #fff;
+    line-height: 1;
+}
+.single-price:hover{
+    background: #da4357;
+    color: #fff;
+    box-shadow: 0 0 15px rgba(0,0,0,1);
+    transform: scale(1.1);
+    z-index: 1;
+    border-radius: 25px;
+}
+
+.single-price:hover .price{
+    border-color: #fff;
+}
+.single-price a{
+    text-decoration: none;
+    background: #da4357;
+    color: #fff;
+    padding: 10px 60px;
+    display: inline-block;
+    margin: 10% auto;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.single-price:hover a{
+    background: #262626;
+    color: #fff;
+}
+/* Estilos recepcion de correo */
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+.body_Rc{
+    font-family: 'poppins';
+    margin: 0;
+    padding: 0;
+    
+}
+.custom-wrapper{
+    width: 1170px;
+    margin: 0 auto;
+
+}
+
+.logo{
+    width: 20%;
+    float: left;
+    padding: 30px 0 0;
+}
+.logo_empresa{
+    width: 18%;
+}
+.nav_RC{
+    width: 75%;
+    float: right;
+    text-align: right;
+    padding: 30px 0 0;
+
+}
+.nav_RC a{
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 20px;
+}
+.navigation{
+    height: 60px;
+}
+.banner-area{
+    animation-name: animate;
+    animation-duration:  7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    height: 100vh;
+}
+.text-area{
+    text-align: center;
+    width: 75%;
+    margin: 0 auto;
+}
+.text-area h2{
+    font-size: 75px;
+    color: #fff;
+    margin: 10% 0 0;
+}
+.text-area h3{
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0 0 15px;
+    font-size: 35px; 
+}
+.text-area p{
+    font-size: 18px;
+    color: #fff;
+    width: 70%;
+    margin: 0 auto;
+    line-height: 1.9;
+}
+@keyframes animate{
+    0%{
+        background-color: #29306a;
+    }
+    25%{
+        background-color: #e60084;
+    }
+    50%{
+        background-color: #ad7c66;
+    }
+    75%{
+        background-color: #005762;
+    }
+    100%{
+        background-color: #4c9ab6;
+    }
+}
